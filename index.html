@@ -1,11 +1,8 @@
 <!DOCTYPE html>
-
-<html lang="en">
-  
 <html>
-
   <head>
-    <meta name="description" content="Ben and Kelli's Wedding Site">
+      <head>
+    <meta name="description" content="Ben and Kelli's Wedding">
 
     <!--Character encoding-->    
     <meta charset="utf-8">
@@ -14,26 +11,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
     <title> Ben and Kelli's Wedding </title>
     
   </head>
-
+  
   <body>
-    <header class="container">
-      <h1>Wedding information coming soon!</h1>
 
+<!-- Header / Home-->
+    <header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+      <div class="w3-display-middle w3-text-white w3-center">
+        <h1 class="w3-jumbo">Kelli & Ben</h1>
+        <h2>Are getting married!</h2>
+        <h2><b>19 May 2018</b></h2>
+      </div>
     </header>
 
-  <section class="container">
-	  <img src="phillybenh.github.io/benkellinose.jpg" alt="Ben gently picking Kelli's nose" title="True Love">
-  </section>
-  <hr>
-  <footer class="container"> 
-      This nonsense was written by Ben
-  </footer>
+<!-- Navbar (sticky bottom) -->
+    <div class="w3-bottom w3-hide-small">
+      <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+        <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+        <a href="#us" style="width:25%" class="w3-bar-item w3-button">Kelli & Ben</a>
+        <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">Wedding</a>
+        <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+      </div>
+    </div>
+
+    <!-- About / Kelli And Ben -->
+    <div class="w3-container w3-padding-64 w3-theme-d1 w3-grayscale-min" id="us">
+      <div class="w3-content">
+        <h1 class="w3-center w3-text-grey"><b>Kelli & Ben</b>           </h1>
+        <img class="w3-round w3-grayscale-min" src="phillybenh.github.io/ring.jpg" style="width:100%;margin:32px 0">
+        <p><i>You all know us. And we all know you. We are getting married lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.</i>
+        </p><br>
+        <p class="w3-center"><a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Wedding Details</a>         </p>
+      </div>
+    </div>
+
+    <!-- Background photo -->
+    <div class="w3-display-container bgimg2">
+      <div class="w3-display-middle w3-text-white w3-center">
+        <h1 class="w3-jumbo">You Are Invited</h1><br>
+        <h2>Of course.</h2>
+      </div>
+    </div>
+
+    <!-- Wedding information -->
+    <div class="w3-container w3-padding-64 w3-theme-l2 w3-grayscale-min w3-center" id="wedding">
+      <div class="w3-content">
+        <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
+        <img class="w3-round-large w3-grayscale-min" src="/w3images/wedding_location.jpg" style="width:100%;margin:64px 0">
+      <!--  <div class="w3-row"> -->
+      <!--    <div class="w3-third"> -->
+            <h2>When</h2>
+            <p>Wedding Ceremony - 5pm</p>
+            <p>Reception & Dinner & Drinks - 6pm</p></br>
+       <!--   </div> -->
+       <!--   <div class="w3-half"> -->
+            <h2>Where</h2>
+            <h3> The Ceremony</h3>
+            <p>Philadelphia City Hall</p>
+            <p>Mayor's Reception Room</p>
+            
+            </br>
+            <h3> The Party</h3>
+            <p>Roy Pitz Barrel House</p>
+            <p>990 Spring Garden St, Philadelphia, PA 19123</p>
+        </br>
+         <!-- </div> -->
+     <!--   </div>   -->
+      </div>
+    </div>
+
+    <!-- RSVP section -->
+    <div class="w3-container w3-padding-64 w3-theme-l1 w3-center w3-wide" id="rsvp">
+      <h1>HOPE YOU CAN MAKE IT!</h1>
+      <!-- Not needed until invites go out 
+      <p class="w3-large">Kindly Respond By April, 2018</p>
+      <p class="w3-xlarge">
+        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+      </p> 
+-->
+      <p class="w3-large">Do we have your contact information?</p>
+      <p class="w3-xlarge">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeAG-HelOrGopfCrcJi7GMu-WMugE32CgspoumaNYtBwfML5w/viewform?usp=sf_link" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">Please give us your address</a>
+      </p>
+    </div>
+
+        <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-16">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    </footer>
+    <div class="w3-hide-small" style="margin-bottom:32px"></div>
 
   </body>
-
 </html>
 
