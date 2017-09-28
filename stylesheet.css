@@ -1,13 +1,21 @@
 body,h1,h2{font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 p {line-height: 2}
-.bgimg, .bgimg2 {
-    min-height: 100%;
+.bgimg, .bgimg2, .bgimg3 {
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
-.bgimg {background-image: url("phillybenh.github.io/mountains.jpg")}
-.bgimg2 {background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/City_hall_Philadelphia.jpg/1200px-City_hall_Philadelphia.jpg")}
+.bgimg {
+  background-image: url("phillybenh.github.io/mountains.jpg");
+min-height: 100%;}
+.bgimg2 {background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/City_hall_Philadelphia.jpg/1200px-City_hall_Philadelphia.jpg");
+min-height: 100%;
+}
+.bgimg3 {
+  background-image: url("phillybenh.github.io/getready.jpg");
+min-height: 100%;}
 .w3-theme-l5 {color:#000 !important; background-color:#f5fcf8 !important}
 .w3-theme-l4 {color:#000 !important; background-color:#ddf4e7 !important}
 .w3-theme-l3 {color:#000 !important; background-color:#bae8cf !important}
@@ -17,4 +25,5 @@ p {line-height: 2}
 .w3-theme-d2 {color:#fff !important; background-color:#38a86b !important}
 .w3-theme-d3 {color:#fff !important; background-color:#31935d !important}
 .w3-theme-d4 {color:#fff !important; background-color:#2a7e50 !important}
-.w3-theme-d5 {color:#fff !important; background-color:#236943 !important}
+.w3-theme-d5 {color:#fff !important; background-color:#236943 !important
+.w3-theme-button {color:#fff !important; background-color:#3e45bd !important}
