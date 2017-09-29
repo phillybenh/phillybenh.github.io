@@ -15,7 +15,7 @@ min-height: 100%;
 }
 .bgimg3 {
   background-image: url("phillybenh.github.io/getready.jpg");
-height: 100%;}
+min-height: 100%;}
 
 .bgimg4 {
   background-image: url("phillybenh.github.io/kimbymaury.jpg");
