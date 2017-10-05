@@ -19,7 +19,12 @@ min-height: 100%;}
 
 .bgimg4 {
   background-image: url("phillybenh.github.io/kimbymaury.jpg");
-min-height: 100%;}
+min-height: 100%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+} 
 
 .w3-theme-l5 {color:#000 !important; background-color:#f5fcf8 !important}
 .w3-theme-l4 {color:#000 !important; background-color:#ddf4e7 !important}
