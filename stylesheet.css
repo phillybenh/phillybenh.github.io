@@ -31,6 +31,11 @@ min-height: 100%;
     text-transform: uppercase;
 } 
 
+.btnformat {
+   font-family: "Raleway", sans-serif;
+   font-size: 150%;
+}
+
 .w3-theme-l5 {color:#000 !important; background-color:#f5fcf8 !important}
 .w3-theme-l4 {color:#000 !important; background-color:#ddf4e7 !important}
 .w3-theme-l3 {color:#000 !important; background-color:#bae8cf !important}
