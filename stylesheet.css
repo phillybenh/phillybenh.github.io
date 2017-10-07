@@ -1,7 +1,7 @@
-body,h1,h2{font-family: "Raleway", sans-serif}
+body,h1,h2,p{font-family: "Raleway", sans-serif}
 body, html {height: 100%;}
 p {line-height: 1;
-    font-size: large;}
+    font-size: 150%;}
 .bgimg, .bgimg2, .bgimg3, .bgimg4 {
     background-attachment: fixed;
     background-position: center;
