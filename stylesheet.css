@@ -10,8 +10,7 @@ h2 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-color:#31935d;
+    background-size: cover;
 }
 .bgimg {
   background-image: url("phillybenh.github.io/mountains.jpg");
