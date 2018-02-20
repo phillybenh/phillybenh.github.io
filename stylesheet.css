@@ -14,10 +14,10 @@ h2 {
 }
 .bgimg {
   background-image: url("phillybenh.github.io/mountains.jpg");
-min-height: 100%;}
+min-height: auto;}
 
 .bgimg2 {background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/City_hall_Philadelphia.jpg/1200px-City_hall_Philadelphia.jpg");
-min-height: 100%;
+min-height: 500px;
 }
 .bgimg3 {
   background-image: url("phillybenh.github.io/getready.jpg");
