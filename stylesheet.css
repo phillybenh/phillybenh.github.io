@@ -14,18 +14,23 @@ h2 {
 }
 .bgimg {
   background-image: url("phillybenh.github.io/mountains.jpg");
-min-height: 100%;}
+  width: 100vw;
+  height: 100vh;}
 
 .bgimg2 {background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/City_hall_Philadelphia.jpg/1200px-City_hall_Philadelphia.jpg");
-min-height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 .bgimg3 {
   background-image: url("phillybenh.github.io/getready.jpg");
-min-height: 100%;}
+  width: 100vw;
+  height: 100vh;
+}
 
 .bgimg4 {
   background-image: url("phillybenh.github.io/kimbymaury.jpg");
-min-height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .bgimg5 {background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Philadelphia_from_South_Street_Bridge_July_2016_panorama_3.jpg/1024px-Philadelphia_from_South_Street_Bridge_July_2016_panorama_3.jpg");
