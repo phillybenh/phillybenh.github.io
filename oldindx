@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <head>
+    <meta name="description" content="Ben and Kelli's Wedding">
+
+    <!--Character encoding-->    
+    <meta charset="utf-8">
+
+    <!--Responsive viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+    <title> Ben and Kelli's Wedding </title>
+    
+  </head>
+  
+  <body>
+
+<!-- Header / Home-->
+    <header class="w3-display-container w3-wide bgimg w3-padding-32" id="home">
+      <div class="w3-display-middle w3-text-white w3-center uppercase">
+        <h1 class="w3-jumbo">Kelli &amp; Ben</h1>
+        <h2>Are getting married!</h2>
+        <h2><b>19 May 2018</b></h2>
+        <br>
+      </div>
+    </header>
+
+<!-- Navbar (sticky bottom)  -->
+    <div class="w3-bottom w3-hide-small">
+      <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+        <a href="#home" style="width:16%" class="w3-bar-item w3-button">Home</a>
+        <a href="#us" style="width:16%" class="w3-bar-item w3-button">Kelli &amp; Ben</a>
+        <a href="#wedding" style="width:16%" class="w3-bar-item w3-button">Wedding</a>
+        <a href="#rsvp" style="width:16%" class="w3-bar-item w3-button w3-hover-black">RSVP</a>
+        <a href="#hotel" style="width:16%" class="w3-bar-item w3-button w3-hover-black">Accommodations</a>
+        <a href="#registry" style="width:16%" class="w3-bar-item w3-button w3-hover-black">Registry</a>
+      </div>
+    </div>
+
+<!-- About / Kelli And Ben -->
+    <div class="w3-container w3-padding-32 w3-theme-d1" id="us">
+      <div class="w3-content">
+        <h1 class="w3-center w3-text-grey"><b>Kelli &amp; Ben</b></h1>
+        <!-- w3-grayscale-min -->
+        <img class="w3-round" src="phillybenh.github.io/Kelli_and_Ben_SaveTheDate.png" style="width:100%;margin:32px 0">
+        <p>Kelli and Ben met in January 2015 at a lovely establishment in South Philadelphia. Since meeting they’ve gone on what feels like a million adventures, including snorkeling in Puerto Rico, riding hundreds of miles on their bikes together, and exploring new cities in a never-ending quest to find the best nachos and dive bars. Ben has turned Kelli into a crazy cat lady, and Kelli has found someone who enthusiastically tolerates her energy and political rants. The City of Brotherly love is the perfect backdrop for our big day, and we hope you love it as much as we do. 
+        </p><br>
+      </div>
+    </div>
+
+<!-- Background photo -->
+    <div class="w3-display-container bgimg2" title="Background photograph by R.Hood Photography (Own work) [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons">
+      <div class="w3-display-middle w3-text-white w3-center uppercase">
+        <h1 class="w3-jumbo">You Are Invited</h1><br>
+        <h2>Of course.</h2>
+      </div>
+    </div>
+
+<!-- Wedding information -->
+    <div class="w3-container w3-padding-32 w3-theme-d1 w3-center" id="wedding">
+      <div class="w3-content">
+        <h1 class="w3-text-grey"><b>THE WEDDING</b></h1>
+<!-- This is where the roy pitz pic originally was -->
+        <div class="w3-row">
+           <div class="w3-half">
+            <h2>Ceremony</h2>
+            <p>5 pm</p>
+            <p>Philadelphia City Hall</p>
+            <a href="https://www.google.com/maps/place/Philadelphia+City+Hall/@39.952383,-75.1657936,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6a1a0d0bbbfc9:0x9b6b64e3977584e5!8m2!3d39.9523789!4d-75.1635996" target="_blank">
+              <p>Mayor's Reception Room</p>
+             </a>          
+        </div>
+        <div class="w3-half">
+            <h2>Reception</h2>
+            <p>6 pm</p>
+            <p>Roy Pitz Barrel House</p>
+           <a href="https://www.google.com/maps/place/Roy+Pitz+Barrel+House/@39.9614572,-75.1563362,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6c87f64023b2f:0xea820edc7d6ce558!8m2!3d39.9614572!4d-75.1541475" target="_blank">
+             <p>990 Spring Garden St, Philadelphia, PA 19123</p>
+          </a>
+          </div> 
+      </div>
+        <a href="https://roypitzbarrelhouse.com" target="_blank"> 
+          <img class="w3-round-large w3-hover-grayscale" src="phillybenh.github.io/roypitzlogo.png" style="width:100%;margin:64px 0">
+        </a>
+        <br>
+         <!-- </div> -->
+     <!--   </div>   -->
+      </div>
+    </div>
+<!-- Get Ready -->
+    <div class="w3-display-container w3-wide bgimg3 w3-padding-32">
+      <div class="w3-display-middle w3-text-white w3-center uppercase">
+        <h1 class="w3-jumbo">Hope you can make it!</h1><br>
+      </div>
+    </div>
+    
+<!-- RSVP section -->
+    <div class="w3-container w3-padding-32 w3-theme-d1 w3-center w3-wide" id="rsvp">
+      <h1 class="w3-center w3-text-grey"><b>RSVP</b></h1>
+
+      <!-- Google form embedment -->
+      <p>If you're having trouble with the embedded RSVP form on your mobile device, please <a href="https://docs.google.com/forms/d/e/1FAIpQLSdC8UHm7UxvtsNdJGITxlKSv8h9IcKC0X1TxOMeJUQnF7G6rg/viewform?usp=sf_link" target="_blank">click here</a> to open it in a new window.</p>
+     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdC8UHm7UxvtsNdJGITxlKSv8h9IcKC0X1TxOMeJUQnF7G6rg/viewform?embedded=true" width="100%" height="500px"></iframe>
+    <!--  <p class="w3-large">Do we have your contact information?</p>
+      <p class="w3-large">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeAG-HelOrGopfCrcJi7GMu-WMugE32CgspoumaNYtBwfML5w/viewform?usp=sf_link" class="w3-button w3-round w3-theme-dark w3-hover-grayscale" target="_blank" style="padding:10px; width: 300px; text-align: center ">Submit your address</a>
+      </p> -->
+    </div>
+
+<!--Accommodations  -->
+    <div class="w3-container w3-padding-32 w3-theme-d1" id="hotel">
+      <div class="w3-content">
+        <h1 class="w3-center w3-text-grey">                
+          <b>ACCOMMODATIONS</b>           
+        </h1>
+<!--    <h2>Unfortunately we have run out of rooms in our reservation block at the Courtyard for Friday night.  If you are only planning to stay one night, there are still rooms available for Saturday.  Click the button below to book your room for Saturday.</h2> <br>
+        <h2>We are in the process of securing a second block of rooms at the Philadelphia Marriott Downtown for Friday and Saturday night. Please check back in a couple of days for booking details if you need lodging for Friday and Saturday night.</h2><br> -->
+        <h2>We have reserved blocks of rooms for our guests at the Courtyard Philadelphia Downtown and the Philadelphia Marriott Downtown.</h2>
+        <div class="w3-center w3-row">
+          <div class="w3-half">
+            <h3>For Saturday reservations:</h3>
+            <a href="https://aws.passkey.com/go/KleinHausWedding" target="_blank" class="w3-button w3-theme-dark w3-round w3-padding-large w3-large btnformat">Courtyard Philadelphia Downtown</a>         
+            <a href="https://www.google.com/maps/place/Courtyard+by+Marriott+Philadelphia+Downtown/@39.95301,-75.163998,17z/data=!3m1!4b1!4m5!3m4!1s0x89c6c62e93ac6391:0x35108101f4325c45!8m2!3d39.95301!4d-75.161804" target="_blank">
+           <p>21 N Juniper St.</p>
+           <p>Philadelphia, PA 19107</p>
+          </a>
+           <p>1-800-321-2211<br>1-888-887-8130</p>
+          </div>
+          <div class="w3-half">
+            <h3>For Friday and Saturday reservations:</h3>
+            <a href="https://aws.passkey.com/go/KleinHausWedding2018" target="_blank" class="w3-button w3-theme-dark w3-round w3-padding-large w3-large btnformat">Philadelphia Marriott Downtown</a>         
+            <a href="https://www.google.com/maps/place/Philadelphia+Marriott+Downtown/@39.952575,-75.160527,15z/data=!4m5!3m4!1s0x0:0x7b450177b196f33e!8m2!3d39.952575!4d-75.1605274" target="_blank">
+           <p>1201 Market St.</p>
+           <p>Philadelphia, PA 19107</p>
+          </a>
+           <p>1-877-901-6632</p>
+          </div>
+      </div>
+      
+        <h2>If you make your reservation by phone, be sure to mention the Klein-Haus wedding block. The cut-off date to book a room that is part of the wedding block is 20 April 2018.</h2> <br>
+        <h2>Valet parking at the Courtyard is $53.90 per day. More affordable parking options are can be found within a few blocks of the hotel, or free street parking can be found in South Philadelphia. </h2><br>
+        <h2>Please visit <a href="http://little-haus.info/visitphilly.html" target="_blank">Kelli &amp; Ben's Philly Tips</a> for things to do around town!</h2>
+      </div>
+    </div>
+
+<!--Registry -->
+    <div class="w3-container w3-padding-32 w3-theme-d1" id="registry">
+      <div class="w3-content">
+        <h1 class="w3-center w3-text-grey">                 
+        <b>REGISTRY</b>           
+        </h1>
+        <p class="w3-center">
+          <a href="https://www.amazon.com/wedding/benjamin-haus-kelli-klein-philadelphia-may-2018/registry/2XN53830GK145" target="_blank" class="w3-button w3-theme-dark w3-round w3-padding-large w3-large">Amazon Registry</a>         
+        </p>
+        <p class="w3-center">
+          <a href="https://www.rei.com/GiftRegistryDetails/15197013" target="_blank" class="w3-button w3-theme-dark w3-round w3-padding-large w3-large">REI Registry</a>         
+        </p>
+      </div>
+    </div>
+<!-- Footer -->
+    <footer class="w3-center w3-theme-d5 w3-padding-32">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a> and Ben, Kimby, Maury, & Assoc.</p>
+    </footer>
+<!-- K&M the real ring-bears -->
+    <div class="w3-display-container w3-wide bgimg4 w3-padding-32">
+      <div class="w3-display-middle w3-text-white w3-center">
+      </div>
+    </div>
+  </body>
+</html>
