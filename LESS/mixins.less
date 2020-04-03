@@ -1,30 +1,37 @@
-// Mixins belong here
+// // Mixins belong here
 
-.rowFlex(@justify:space-around, @align:center) {
-  display: flex;
+.gridContainer(@justify:center, @align:center) {
+  display: grid;
   justify-content: @justify;
   align-items: @align;
-}
-.colFlex(@justify:center, @align:center) {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: @justify;
-  align-items: @align;
+
 }
 
-.button(@bgColor:@buttonBG, @fontColor:@buttonColor, @width:200px) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: @bgColor;
-  color: @fontColor;
-  cursor: pointer;
-  width: @width;
-  height: 45px;
-  font-size: 2rem;
-  border: none;
-  border-radius: 5px;
-}
+// .rowFlex(@justify:space-around, @align:center) {
+//   display: flex;
+//   justify-content: @justify;
+//   align-items: @align;
+// }
+// .colFlex(@justify:center, @align:center) {
+//   display: flex;
+//   flex-flow: column nowrap;
+//   justify-content: @justify;
+//   align-items: @align;
+// }
+
+// .button(@bgColor:@buttonBG, @fontColor:@buttonColor, @width:200px) {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: @bgColor;
+//   color: @fontColor;
+//   cursor: pointer;
+//   width: @width;
+//   height: 45px;
+//   font-size: 2rem;
+//   border: none;
+//   border-radius: 5px;
+// }
 
 // might play with this agian later
 // .animateColor(@name, @from, @to) {
