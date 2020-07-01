@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   width: 100%;
+  background: $htmlBG;
 }
 
 /*
@@ -14,9 +15,9 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  background: @LHSGreen;
-}
+// body {
+//   background: $LHSGreen;
+// }
 
 h1,
 h2,

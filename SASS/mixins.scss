@@ -1,22 +1,22 @@
-// // Mixins belong here
+// Mixins belong here
 
-.gridContainer(@justify:center, @align:center) {
+@mixin gridContainer($justify:center, $align:center) {
   display: grid;
-  justify-content: @justify;
-  align-items: @align;
+  justify-content: $justify;
+  align-items: $align;
 }
 
-// .rowFlex(@justify:space-around, @align:center) {
-//   display: flex;
-//   justify-content: @justify;
-//   align-items: @align;
-// }
-// .colFlex(@justify:center, @align:center) {
-//   display: flex;
-//   flex-flow: column nowrap;
-//   justify-content: @justify;
-//   align-items: @align;
-// }
+@mixin rowFlex($justify:space-around, $align:center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin colFlex($justify:center, $align:center) {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: $justify;
+  align-items: $align;
+}
 
 // .button(@bgColor:@buttonBG, @fontColor:@buttonColor, @width:200px) {
 //   display: flex;

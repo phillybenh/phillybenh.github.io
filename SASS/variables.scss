@@ -1,11 +1,12 @@
 // Colors - temporary choices, will discuss w/ team
 
-@LHSGreen: #5a795c;
-@LHSBlue: #19292f;
+$LHSGreen: #5a795c;
+$LHSBlue: #19292f;
+$LHSWhite: white;
 
 
 // Color Assignments
-@htmlBG: @LHSGreen;
+$htmlBG: $LHSGreen;
 
 // @headerBG: @antarcticBlue;
 // @headerColor: @babyPowder;
@@ -20,11 +21,11 @@
 
 // Fonts
 
-@headingFont: ~"'Montserrat', sans-serif";
-@textFont: ~"'Open Sans', sans-serif";
+$headingFont: Montserrat, sans-serif;
+$textFont: Open Sans, sans-serif;
 
 // Size Variables
 
-@desktop: ~"(max-width: 1200px)";
-@tablet: ~"(max-width: 800px)";
-@mobile: ~"(max-width: 500px)";
+$desktop-width: "(max-width: 1200px)";
+$tablet-width: "(max-width: 800px)";
+$mobile-width: "(max-width: 500px)";

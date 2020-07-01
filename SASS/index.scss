@@ -1,16 +1,15 @@
 // Variables and Mix-Ins
 
-@import "variables.less";
-@import "mixins.less";
+@import "variables.scss";
+@import "mixins.scss";
 
 // Reset and General Styles
 
-@import "reset.less";
-@import "global.less";
+@import "reset.scss";
+@import "global.scss";
 
 // Component Styles
 
-@import "header.less";
-@import "footer.less";
-@import "homePage.less";
-@import "aboutPage.less";
+@import "header.scss";
+@import "footer.scss";
+@import "homePage.scss";
