@@ -6,19 +6,15 @@ $LHSWhite: white;
 
 
 // Color Assignments
-$htmlBG: $LHSWhite;
-$bannerBG: $LHSGreen;
+$htmlBG: $LHSBlue;
+$bodyBG: $LHSWhite;
+$footerBG: $LHSBlue;
+$bannerBG: $LHSBlue;
 
-// @headerBG: @antarcticBlue;
-// @headerColor: @babyPowder;
+$headingColor: $LHSGreen;
+$footerColor: $LHSWhite;
 
-// @contentBG: @brookGreen;
-// @contentText: @antarcticBlue;
-// @containerBG: @babyPowder;
-// @containerHeading: @oliveish;
 
-// @buttonBG:@brookGreen;
-// @buttonColor:@babyPowder;
 
 // Fonts
 
@@ -27,6 +23,6 @@ $textFont: Open Sans, sans-serif;
 
 // Size Variables
 
-$desktop-width: "(max-width: 1200px)";
+$desktop-width: 1300px;
 $tablet-width: "(max-width: 800px)";
 $mobile-width: "(max-width: 500px)";

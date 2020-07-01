@@ -4,8 +4,15 @@ html {
   background: $htmlBG;
 }
 
+body {
+  max-width: $desktop-width;
+  min-height: 500px;
+  background: $bodyBG;
+  margin: 0 auto;
+  font-size: 62.5%;
+}
+
 /*
-  WAT IS THIS?!
   We inherit box-sizing: border-box; from our <html> selector
   Apparently this is a bit better than applying box-sizing: border-box; directly to the * selector
 */
@@ -15,10 +22,6 @@ html {
   box-sizing: inherit;
 }
 
-// body {
-//   background: $LHSGreen;
-// }
-
 h1,
 h2,
 h3,
@@ -26,4 +29,21 @@ h4,
 h5,
 h6 {
   margin: 0 0 5px 0;
+  color: $headingColor;
+  font-family: $headingFont;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+p,
+label {
+  font-family: $textFont;
+  font-size: 1.5rem;
+  font-weight: 400;
 }

@@ -1,13 +1,23 @@
 .mainContent {
-    @include gridContainer();
+  min-width: 300px;
+  min-height: 75vh;
+  padding: 10px 0;
+  @include colFlex(space-evenly);
 
+  header {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .promoImages {
+    @include rowFlex(space-evenly);
+
+    img {
+      max-width: 350px;
+    }
+  }
 }
 
-.mainContent img{
-    width: 100%;
-}
-
-//delete if not reused
-// #bgLogo {
-//     width: 1564px;
+// .mainContent img{
+//     width: 100%;
 // }

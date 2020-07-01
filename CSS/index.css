@@ -131,11 +131,18 @@ table {
 html {
   box-sizing: border-box;
   width: 100%;
+  background: #19292f;
+}
+
+body {
+  max-width: 1300px;
+  min-height: 500px;
   background: white;
+  margin: 0 auto;
+  font-size: 62.5%;
 }
 
 /*
-  WAT IS THIS?!
   We inherit box-sizing: border-box; from our <html> selector
   Apparently this is a bit better than applying box-sizing: border-box; directly to the * selector
 */
@@ -152,10 +159,29 @@ h4,
 h5,
 h6 {
   margin: 0 0 5px 0;
+  color: #5a795c;
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+p,
+label {
+  font-family: Open Sans, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
 }
 
 .banner {
-  background-color: #5a795c;
+  background-color: #19292f;
 }
 .banner img {
   width: 100%;
@@ -163,7 +189,7 @@ h6 {
   display: block;
 }
 .banner .bannerLogo {
-  mask-image: linear-gradient(to right, black, 92%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(to right, black, 95%, rgba(0, 0, 0, 0));
   -webkit-mask-image: linear-gradient(to right, black, 92%, rgba(0, 0, 0, 0));
 }
 .banner .bannerImg {
@@ -205,14 +231,41 @@ h6 {
   }
 }
 
-.mainContent {
-  display: grid;
-  justify-content: center;
-  align-items: center;
+footer {
+  padding: 10px;
+  text-align: center;
+  background: #19292f;
+  color: white;
 }
 
-.mainContent img {
-  width: 100%;
+.mainContent {
+  min-width: 300px;
+  min-height: 75vh;
+  padding: 10px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mainContent header {
+  margin: 10px auto;
+  text-align: center;
+}
+.mainContent .promoImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mainContent .promoImages img {
+  max-width: 350px;
+}
+
+.privacyPolicy {
+  padding: 20px;
+}
+.privacyPolicy p {
+  margin: 10px auto;
 }
 
 /*# sourceMappingURL=index.css.map */
