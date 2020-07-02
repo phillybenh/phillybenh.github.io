@@ -10,9 +10,12 @@ $htmlBG: $LHSBlue;
 $bodyBG: $LHSWhite;
 $footerBG: $LHSBlue;
 $bannerBG: $LHSBlue;
+$buttonBG: $LHSGreen;
 
 $headingColor: $LHSGreen;
+$buttonColor: $LHSWhite;
 $footerColor: $LHSWhite;
+
 
 
 
@@ -24,5 +27,5 @@ $textFont: Open Sans, sans-serif;
 // Size Variables
 
 $desktop-width: 1300px;
-$tablet-width: "(max-width: 800px)";
-$mobile-width: "(max-width: 500px)";
+$tablet-width: 900px;
+$mobile-width: 500px;

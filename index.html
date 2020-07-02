@@ -14,6 +14,7 @@
         <!--Links-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
         <link href="CSS/index.css" rel="stylesheet">
+        <link type="text/plain" rel="author" href="https://little-haus.com/humans.txt" />
 
 
         <link rel="icon" type="image/svg+xml" href="/Media/laptop-house-solid.svg"
@@ -45,13 +46,35 @@
             </section>
             <section class="contactUs">
                 <h2>Let's work together</h2>
-                <form>
-                    <p>Form</p>
-                    <p>Form</p>
-                    <p>Form</p>
-                    <p>Form</p>
-                    <p>Form</p>
+                <form name="contactForm" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <div class="fields">
+                        <div class="hidden">
+                            <label for="bot-field">Don’t fill this out if you're human: </label>
+                            <input name="bot-field" />
+                        </div>
+                        <div class="field">
+                            <label for="name">Your Name:</label>
+                            <input type="text" name="name" />
+                        </div>
+                        <div class="field">
+                            <label for="email">Your Email:</label>
+                            <input type="email" name="email" />
+                        </div>
+                        <div class="field">
+                            <label for="message">What you're looking for:</label>
+                            <textarea name="message" rows="4"></textarea>
+                        </div>
+
+                        <div>
+                            <button class="button" type="submit">Send</button>
+                        </div>
+                    </div>
+
                 </form>
+
+            </section>
+            <section>
+                <button class="button"><a href="privacyPolicy.html">Privacy Policy</a></button>
             </section>
         </section>
         <footer>

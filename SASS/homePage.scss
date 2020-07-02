@@ -16,8 +16,39 @@
       max-width: 350px;
     }
   }
-}
+  .contactUs {
+    width: 525px;
+    @include colFlex(space-evenly, center);
+    margin: 5px 0;
 
-// .mainContent img{
-//     width: 100%;
-// }
+    .fields {
+      @include colFlex(space-evenly, center);
+      margin: 1px 0;
+      input {
+        font-family: $textFont;
+        font-size: 1.2rem;
+        font-weight: 400;
+        border-radius: 0;
+        width: 70%;
+        @media (max-width: $tablet-width) {
+          width: 100%;
+        }
+      }
+      textarea {
+        @extend input;
+        width: 100%;
+      }
+      .field {
+        @include rowFlex(space-between, center);
+        margin: 10px 0;
+        width: 90%;
+      }
+    }
+    @media (max-width: $tablet-width) {
+      width: 75%px;
+    }
+    @media (max-width: $mobile-width) {
+      width: 100%;
+    }
+  }
+}
