@@ -346,7 +346,6 @@ html {
 }
 
 body {
-  min-height: 500px;
   background: white;
   margin: 0 auto;
   font-size: 62.5%;
@@ -370,7 +369,7 @@ h5,
 h6 {
   margin: 0 0 5px 0;
   color: #5a795c;
-  font-family: Montserrat, sans-serif;
+  font-family: Heebo, sans-serif;
 }
 
 h1 {
@@ -383,11 +382,18 @@ h2 {
   font-weight: 700;
 }
 
-p,
+p, a:link,
+a:visited,
 label {
   font-family: Open Sans, sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
+  line-height: 1.5;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
 }
 
 .button {
@@ -400,7 +406,8 @@ label {
   width: 250px;
   height: 50px;
   font-size: 2rem;
-  font-family: Montserrat, sans-serif;
+  font-family: Heebo, sans-serif;
+  font-weight: 700;
   border: none;
   border-radius: 5px;
 }
@@ -412,7 +419,7 @@ label {
   text-decoration: none;
   color: white;
   font-size: 2rem;
-  font-family: Montserrat, sans-serif;
+  font-family: Heebo, sans-serif;
   width: 100%;
 }
 
@@ -471,11 +478,16 @@ label {
   }
 }
 
-footer {
+footer, footer a:link,
+footer a:visited {
   padding: 10px;
   text-align: center;
   background: #19292f;
   color: white;
+}
+footer a:link:hover,
+footer a:visited:hover {
+  font-weight: 700;
 }
 
 .mainContent {
@@ -508,6 +520,9 @@ footer {
   align-items: center;
   margin: 5px 0;
 }
+.mainContent .contactUs h2 {
+  text-align: center;
+}
 .mainContent .contactUs .fields {
   display: flex;
   flex-flow: column nowrap;
@@ -520,12 +535,7 @@ footer {
   font-size: 1.2rem;
   font-weight: 400;
   border-radius: 0;
-  width: 70%;
-}
-@media (max-width: 900px) {
-  .mainContent .contactUs .fields input, .mainContent .contactUs .fields textarea {
-    width: 100%;
-  }
+  width: 100%;
 }
 .mainContent .contactUs .fields textarea {
   width: 100%;
@@ -552,7 +562,8 @@ footer {
 .privacyPolicy {
   padding: 20px;
 }
-.privacyPolicy p {
+.privacyPolicy p, .privacyPolicy a:link,
+.privacyPolicy a:visited {
   margin: 10px auto;
 }
 

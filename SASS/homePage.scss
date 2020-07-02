@@ -20,7 +20,9 @@
     width: 525px;
     @include colFlex(space-evenly, center);
     margin: 5px 0;
-
+    h2 {
+      text-align: center;
+    }
     .fields {
       @include colFlex(space-evenly, center);
       margin: 1px 0;
@@ -29,10 +31,7 @@
         font-size: 1.2rem;
         font-weight: 400;
         border-radius: 0;
-        width: 70%;
-        @media (max-width: $tablet-width) {
-          width: 100%;
-        }
+        width: 100%;
       }
       textarea {
         @extend input;
