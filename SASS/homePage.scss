@@ -1,0 +1,60 @@
+.mainContent {
+  min-width: 300px;
+  min-height: 75vh;
+  padding: 10px 0;
+  @include colFlex(space-evenly);
+
+  header {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .promoImages {
+    @include rowFlex(space-evenly);
+
+    img {
+      max-width: 350px;
+    }
+  }
+  .contactUs {
+    width: 525px;
+    @include colFlex(space-evenly, center);
+    margin: 5px 0;
+    h2 {
+      text-align: center;
+    }
+    form {
+      width: 100%;
+      .fields {
+        @include colFlex(space-evenly, center);
+        margin: 1px 0;
+        input {
+          font-family: $textFont;
+          font-size: 1.2rem;
+          font-weight: 400;
+          border-radius: 0;
+          width: 100%;
+        }
+        textarea {
+          @extend input;
+          width: 100%;
+        }
+        .field {
+          @include rowFlex(space-between, center);
+          margin: 10px 0;
+          width: 90%;
+        }
+      }
+    }
+    #formIntro {
+      font-family: $headingFont;
+      padding: 0 20px;
+    }
+    @media (max-width: $tablet-width) {
+      width: 75%px;
+    }
+    @media (max-width: $mobile-width) {
+      width: 100%;
+    }
+  }
+}

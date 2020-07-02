@@ -12,40 +12,74 @@
         <title>Little-Haus Strategies</title>
 
         <!--Links-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap" rel="stylesheet">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;700&family=Open+Sans:wght@400;700&display=swap"
+            rel="stylesheet">
         <link href="CSS/index.css" rel="stylesheet">
+        <link type="text/plain" rel="author" href="https://little-haus.com/humans.txt" />
 
 
-        <link rel="icon" type="image/svg+xml" href="/Media/laptop-house-solid.svg" title="Icon by FontAwesome https://fontawesome.com/license">
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141244326-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
-
-            gtag('config', 'UA-141244326-1');
-        </script>
+        <link rel="icon" type="image/png" href="/Media/LHS_Favicon_2.png">
 
     </head>
 
     <body>
-        <!-- <header>
-            <nav>
-                <a href="index.html">Little-Haus Strategies</a>
-                <a href="aboutus.html">About Us</a>
-                <a href="#">Contact</a>
-            </nav>
-        </header> -->
-        <!-- <section class="cta">
-
-        </section> -->
+        <header>
+            <section class="banner">
+                <div class="image-stack">
+                    <div class="image-stack__item image-stack__item--top">
+                        <img src="/Media/LHS_logo_inverse.png" alt="LHS logo" class="bannerLogo">
+                    </div>
+                    <div class="image-stack__item image-stack__item--bottom">
+                        <img src="Media/macbook-pro-684314.jpg" alt="photo of macbook laptop" class="bannerImg">
+                    </div>
+                </div>
+            </section>
+        </header>
         <section class="mainContent">
-            <img src="/Media/LHS_LogoforSite.png" alt="LHS logo" class="placeholderImg" id="bgLogo">
+            <header>
+                <h1>A Full Service Digital Firm</h1>
+            </header>
+            <section class="promoImages">
+                <img src="Media/DigitalOrganizingPanel.png" alt="promotional graphic">
+                <img src="Media/DataDriven.png" alt="promotional graphic">
+                <img src="Media/LHS_Messengers_v2.png" alt="promotional graphic">
+            </section>
+            <section class="contactUs">
+                <h2>Get in touch.</h2>
+                <p id="formIntro">Have a question about our work? Interested in learning more about how we’ve helped clients? Got a project you’d like to
+                partner with us on?</p>
+                <form name="contactForm" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                    <div class="fields">
+                        <div class="hidden">
+                            <label for="bot-field">Don’t fill this out if you're human: </label>
+                            <input name="bot-field" />
+                        </div>
+                        <div class="field">
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" />
+                        </div>
+                        <div class="field">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" />
+                        </div>
+                        <div class="field">
+                            <label for="message">Message:</label>
+                            <textarea name="message" rows="4"></textarea>
+                        </div>
+
+                        <div>
+                            <button class="button" type="submit">Send</button>
+                        </div>
+                    </div>
+
+                </form>
+
+            </section>
+
         </section>
         <footer>
-
+            <p>&copy 2020 | <a href="privacyPolicy.html">Privacy Policy</a></p>
         </footer>
     </body>
 

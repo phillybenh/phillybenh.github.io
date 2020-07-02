@@ -1,0 +1,76 @@
+.banner {
+  background-color: $bannerBG;
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .bannerLogo {
+    // opacity: 0.01;
+    mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1),
+      95%,
+      rgba(0, 0, 0, 0)
+    );
+    -webkit-mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1),
+      92%,
+      rgba(0, 0, 0, 0)
+    );
+  }
+  .bannerImg {
+    // opacity: 0.01;
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    -webkit-mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1)
+    );
+  }
+
+  // partial support for old broswers
+  .image-stack::after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+  .image-stack__item--top {
+    float: left;
+    width: 66%;
+    margin-right: -100%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .image-stack__item--bottom {
+    display: none;
+    // float: right;
+    // width: 75%;
+  }
+
+  // modern browser support
+  @supports (display: grid) {
+    .image-stack {
+      display: grid;
+      position: relative; // imperative for the overlapping to work
+      grid-template-columns: repeat(12, 1fr);
+    }
+
+    .image-stack__item--bottom {
+      display: block;
+      grid-column: 6 / -1;
+      grid-row: 1;
+      width: 100%;
+    }
+
+    .image-stack__item--top {
+      grid-row: 1;
+      grid-column: 1 / span 6;
+      padding-top: 0;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+footer {
+  padding: 10px;
+  text-align: center;
+  background: $footerBG;
+  color: $footerColor;
+  a:link,
+  a:visited {
+    @extend footer;
+    &:hover {
+    font-weight: 700;;
+  }
+  }
+}
