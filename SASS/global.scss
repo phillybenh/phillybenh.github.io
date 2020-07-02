@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 5px 0;
+  margin: 10px 0 0 0;
   color: $headingColor;
   font-family: $headingFont;
 }
@@ -44,13 +44,13 @@ h2 {
   font-weight: 700;
 }
 
-p,
-label {
+p, label {
   font-family: $textFont;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5;;
 }
+
 a:link,
 a:visited {
   @extend p;
@@ -73,6 +73,7 @@ a:visited {
   border-radius: 5px;
   &:hover {
     border: 2px solid $buttonColor;
+    background-color: $LHSBlue;
   }
   a:link,
   a:visited {

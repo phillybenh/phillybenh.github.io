@@ -150,7 +150,7 @@ img {
  */
 button,
 input,
-.mainContent .contactUs .fields textarea,
+.mainContent .contactUs form .fields textarea,
 optgroup,
 select,
 textarea {
@@ -170,7 +170,7 @@ textarea {
  */
 button,
 input,
-.mainContent .contactUs .fields textarea {
+.mainContent .contactUs form .fields textarea {
   /* 1 */
   overflow: visible;
 }
@@ -367,7 +367,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 5px 0;
+  margin: 10px 0 0 0;
   color: #5a795c;
   font-family: Heebo, sans-serif;
 }
@@ -383,8 +383,7 @@ h2 {
 }
 
 p, a:link,
-a:visited,
-label {
+a:visited, label {
   font-family: Open Sans, sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
@@ -413,6 +412,7 @@ a:visited {
 }
 .button:hover {
   border: 2px solid white;
+  background-color: #19292f;
 }
 .button a:link,
 .button a:visited {
@@ -523,30 +523,37 @@ footer a:visited:hover {
 .mainContent .contactUs h2 {
   text-align: center;
 }
-.mainContent .contactUs .fields {
+.mainContent .contactUs form {
+  width: 100%;
+}
+.mainContent .contactUs form .fields {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-evenly;
   align-items: center;
   margin: 1px 0;
 }
-.mainContent .contactUs .fields input, .mainContent .contactUs .fields textarea {
+.mainContent .contactUs form .fields input, .mainContent .contactUs form .fields textarea {
   font-family: Open Sans, sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
   border-radius: 0;
   width: 100%;
 }
-.mainContent .contactUs .fields textarea {
+.mainContent .contactUs form .fields textarea {
   width: 100%;
 }
-.mainContent .contactUs .fields .field {
+.mainContent .contactUs form .fields .field {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin: 10px 0;
   width: 90%;
+}
+.mainContent .contactUs #formIntro {
+  font-family: Heebo, sans-serif;
+  padding: 0 20px;
 }
 @media (max-width: 900px) {
   .mainContent .contactUs {
